@@ -59,7 +59,7 @@ public EliminarMetadatosService()
             //que se elimina automáticamente pero el FileSystemWatcher los detecta 
             if (!e.FullPath.Contains("_exiftool_tmp"))
             {
-		    //Añade al fichero args.txt los argumentos junto con la ruta completa a ejecutar con ExifTool (línea por línea el 		   
+	    //Añade al fichero args.txt los argumentos junto con la ruta completa a ejecutar con ExifTool (línea por línea el 		   
             //fichero queda como en el ejemplo siguiente (sin la doble barra de comentario):
 		   	//-all =
 		   	//C:\Program Files (x86)\Eliminar Metadatos\Eliminar Metadatos\Eliminar Metadatos\Parque.jpg
